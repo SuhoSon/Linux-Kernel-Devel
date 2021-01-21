@@ -37,7 +37,6 @@ map <C-k> :cn<CR>
 map <C-9> :split<CR>
 map <C-0> :vs<CR>
 
-" 마지막으로 수정된 곳에 커서를 위치함
 au BufReadPost *
 \ if line("'\"") > 0 && line("'\"") <= line("$") |
 \ exe "norm g`\"" |
