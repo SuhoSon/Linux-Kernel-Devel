@@ -26,6 +26,7 @@ filetype on
 
 colorscheme jellybeans
 
+" Shortcuts
 map <C-e> :cs f e 
 map <C-c> :cs f c 
 map <C-g> :cs f g 
