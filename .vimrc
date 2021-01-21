@@ -38,7 +38,7 @@ map <C-k> :cn<CR>
 map <C-9> :split<CR>
 map <C-0> :vs<CR>
 
-" last modified line
+" Last modified line
 au BufReadPost *
 \ if line("'\"") > 0 && line("'\"") <= line("$") |
 \ exe "norm g`\"" |
